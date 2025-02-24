@@ -1,0 +1,26 @@
+body {
+  background-color: #ffebf2 !important;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+.navbar-brand {
+  font-size: 1.5rem;
+  color: #ff6f61 !important;
+}
+.container {
+  max-width: 900px;
+}
+.nav-link:hover {
+  background-color: #ffccd5 !important;
+  color: #ff6f61 !important;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+.nav-link.active {
+  font-weight: bold;
+  color: #ff6f61 !important;
+  text-decoration: underline;
+  background-color: #ffccd5;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
